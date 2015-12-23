@@ -28,8 +28,8 @@ module screw_hole(){
 module flange_hole(){
     //法兰盘卡槽。
     flange_w = floor_w+back_wall;
-    translate([17.5,0,floor_h+wall_h/2]) rotate(a=[270,0,0])  cylinder(h=flange_w+100,d=10.2);
-    translate([17.5,0,floor_h+wall_h/2]) rotate(a=[270,0,0]) cylinder(h=flange_w+1.5,d=12.2);
+    translate([17.5,0,floor_h+wall_h/2]) rotate(a=[270,0,0])  cylinder(h=flange_w+100,d=10.4);
+    translate([17.5,0,floor_h+wall_h/2]) rotate(a=[270,0,0]) cylinder(h=flange_w+1.5,d=12.4);
 }
 
 module serv_box_1(){
